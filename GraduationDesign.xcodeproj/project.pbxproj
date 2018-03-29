@@ -7,15 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070C6485204960F900CF200C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 070C6484204960F900CF200C /* Podfile */; };
+		07526EC22060FC7C00509A54 /* SearchPojo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07526EC12060FC7C00509A54 /* SearchPojo.m */; };
+		07526EC520611BB200509A54 /* OrderCommitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07526EC420611BB200509A54 /* OrderCommitViewController.m */; };
+		07777F592046A0BD00772F39 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07777F582046A0BD00772F39 /* MeViewController.m */; };
+		079A81AA205956DE00C1AC61 /* STScaleTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A818B205956DE00C1AC61 /* STScaleTitleTableViewController.m */; };
+		079A81AB205956DE00C1AC61 /* STScaleTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A818E205956DE00C1AC61 /* STScaleTitleView.m */; };
+		079A81AC205956DE00C1AC61 /* MMHorizontalListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A8190205956DE00C1AC61 /* MMHorizontalListViewCell.m */; };
+		079A81AD205956DE00C1AC61 /* MMHorizontalListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A8193205956DE00C1AC61 /* MMHorizontalListView.m */; };
+		079A81AE205956DE00C1AC61 /* YRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A8195205956DE00C1AC61 /* YRTableViewController.m */; };
+		079A81AF205956DE00C1AC61 /* STSlideScaleTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A8199205956DE00C1AC61 /* STSlideScaleTitleTableViewController.m */; };
+		079A81B0205956DE00C1AC61 /* STSegmentScaleTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A819C205956DE00C1AC61 /* STSegmentScaleTitleView.m */; };
+		079A81B1205956DE00C1AC61 /* STSlideScaleCarouselItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81A1205956DE00C1AC61 /* STSlideScaleCarouselItemView.m */; };
+		079A81B2205956DE00C1AC61 /* STSegmentCollectionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81A2205956DE00C1AC61 /* STSegmentCollectionItemCell.m */; };
+		079A81B3205956DE00C1AC61 /* STSegmentSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81A4205956DE00C1AC61 /* STSegmentSelectorView.m */; };
+		079A81B4205956DE00C1AC61 /* STSegmentCollectionSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81A5205956DE00C1AC61 /* STSegmentCollectionSelectorView.m */; };
+		079A81B5205956DE00C1AC61 /* STSlideScaleCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81A6205956DE00C1AC61 /* STSlideScaleCarousel.m */; };
+		079A81B6205956DE00C1AC61 /* STSegmentSelectorItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81A9205956DE00C1AC61 /* STSegmentSelectorItemCell.m */; };
+		079A81BB2059572900C1AC61 /* DemoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81B72059572900C1AC61 /* DemoTableViewCell.m */; };
+		079A81BC2059572900C1AC61 /* ScaleTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81BA2059572900C1AC61 /* ScaleTitleViewController.m */; };
+		079A81BF20595D8900C1AC61 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81BD20595D8800C1AC61 /* AViewController.m */; };
+		079A81C22059612200C1AC61 /* BookTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A81C12059612200C1AC61 /* BookTicketViewController.m */; };
 		07AEC1D52043EEB2001000A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AEC1D42043EEB2001000A1 /* AppDelegate.m */; };
 		07AEC1D82043EEB2001000A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AEC1D72043EEB2001000A1 /* ViewController.m */; };
 		07AEC1DB2043EEB2001000A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AEC1D92043EEB2001000A1 /* Main.storyboard */; };
 		07AEC1DD2043EEB2001000A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AEC1DC2043EEB2001000A1 /* Assets.xcassets */; };
 		07AEC1E02043EEB2001000A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AEC1DE2043EEB2001000A1 /* LaunchScreen.storyboard */; };
 		07AEC1E32043EEB2001000A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AEC1E22043EEB2001000A1 /* main.m */; };
+		07BEE5CD2044022F00271AC2 /* CGXAddressCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07BEE5BC2044022F00271AC2 /* CGXAddressCity.plist */; };
+		07BEE5CE2044022F00271AC2 /* CGXPickerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5BE2044022F00271AC2 /* CGXPickerViewManager.m */; };
+		07BEE5CF2044022F00271AC2 /* NSDate+CGXPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5C32044022F00271AC2 /* NSDate+CGXPicker.m */; };
+		07BEE5D02044022F00271AC2 /* CGXAddressPcikerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5C42044022F00271AC2 /* CGXAddressPcikerView.m */; };
+		07BEE5D12044022F00271AC2 /* CGXDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5C62044022F00271AC2 /* CGXDatePickerView.m */; };
+		07BEE5D22044022F00271AC2 /* CGXPickerUIBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5C72044022F00271AC2 /* CGXPickerUIBaseView.m */; };
+		07BEE5D32044022F00271AC2 /* CGXAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5C82044022F00271AC2 /* CGXAddressModel.m */; };
+		07BEE5D42044022F00271AC2 /* CGXBasicInfoPicker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07BEE5C92044022F00271AC2 /* CGXBasicInfoPicker.plist */; };
+		07BEE5D52044022F00271AC2 /* CGXStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5CB2044022F00271AC2 /* CGXStringPickerView.m */; };
+		07BEE5D62044022F00271AC2 /* CGXPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5CC2044022F00271AC2 /* CGXPickerView.m */; };
+		2931D608F39FCB944411F5F1 /* libPods-GraduationDesign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB7562B40867FA0ED794D2C /* libPods-GraduationDesign.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070C6484204960F900CF200C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		07526EC02060FC7C00509A54 /* SearchPojo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchPojo.h; sourceTree = "<group>"; };
+		07526EC12060FC7C00509A54 /* SearchPojo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchPojo.m; sourceTree = "<group>"; };
+		07526EC320611BB200509A54 /* OrderCommitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrderCommitViewController.h; sourceTree = "<group>"; };
+		07526EC420611BB200509A54 /* OrderCommitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderCommitViewController.m; sourceTree = "<group>"; };
+		07777F572046A0BD00772F39 /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		07777F582046A0BD00772F39 /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		079A818A205956DE00C1AC61 /* STScaleTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScaleTitleTableViewController.h; sourceTree = "<group>"; };
+		079A818B205956DE00C1AC61 /* STScaleTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScaleTitleTableViewController.m; sourceTree = "<group>"; };
+		079A818D205956DE00C1AC61 /* STScaleTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScaleTitleView.h; sourceTree = "<group>"; };
+		079A818E205956DE00C1AC61 /* STScaleTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScaleTitleView.m; sourceTree = "<group>"; };
+		079A8190205956DE00C1AC61 /* MMHorizontalListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHorizontalListViewCell.m; sourceTree = "<group>"; };
+		079A8191205956DE00C1AC61 /* MMHorizontalListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHorizontalListView.h; sourceTree = "<group>"; };
+		079A8192205956DE00C1AC61 /* MMHorizontalListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHorizontalListViewCell.h; sourceTree = "<group>"; };
+		079A8193205956DE00C1AC61 /* MMHorizontalListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHorizontalListView.m; sourceTree = "<group>"; };
+		079A8195205956DE00C1AC61 /* YRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRTableViewController.m; sourceTree = "<group>"; };
+		079A8196205956DE00C1AC61 /* STTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewController.h; sourceTree = "<group>"; };
+		079A8198205956DE00C1AC61 /* STSlideScaleTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSlideScaleTitleTableViewController.h; sourceTree = "<group>"; };
+		079A8199205956DE00C1AC61 /* STSlideScaleTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSlideScaleTitleTableViewController.m; sourceTree = "<group>"; };
+		079A819B205956DE00C1AC61 /* STSegmentScaleTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentScaleTitleView.h; sourceTree = "<group>"; };
+		079A819C205956DE00C1AC61 /* STSegmentScaleTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentScaleTitleView.m; sourceTree = "<group>"; };
+		079A819E205956DE00C1AC61 /* STSegmentCollectionSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentCollectionSelectorView.h; sourceTree = "<group>"; };
+		079A819F205956DE00C1AC61 /* STSegmentSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentSelectorView.h; sourceTree = "<group>"; };
+		079A81A0205956DE00C1AC61 /* STSlideScaleCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSlideScaleCarousel.h; sourceTree = "<group>"; };
+		079A81A1205956DE00C1AC61 /* STSlideScaleCarouselItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSlideScaleCarouselItemView.m; sourceTree = "<group>"; };
+		079A81A2205956DE00C1AC61 /* STSegmentCollectionItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentCollectionItemCell.m; sourceTree = "<group>"; };
+		079A81A3205956DE00C1AC61 /* STSegmentSelectorItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentSelectorItemCell.h; sourceTree = "<group>"; };
+		079A81A4205956DE00C1AC61 /* STSegmentSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentSelectorView.m; sourceTree = "<group>"; };
+		079A81A5205956DE00C1AC61 /* STSegmentCollectionSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentCollectionSelectorView.m; sourceTree = "<group>"; };
+		079A81A6205956DE00C1AC61 /* STSlideScaleCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSlideScaleCarousel.m; sourceTree = "<group>"; };
+		079A81A7205956DE00C1AC61 /* STSegmentCollectionItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSegmentCollectionItemCell.h; sourceTree = "<group>"; };
+		079A81A8205956DE00C1AC61 /* STSlideScaleCarouselItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSlideScaleCarouselItemView.h; sourceTree = "<group>"; };
+		079A81A9205956DE00C1AC61 /* STSegmentSelectorItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSegmentSelectorItemCell.m; sourceTree = "<group>"; };
+		079A81B72059572900C1AC61 /* DemoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewCell.m; sourceTree = "<group>"; };
+		079A81B82059572900C1AC61 /* ScaleTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleTitleViewController.h; sourceTree = "<group>"; };
+		079A81B92059572900C1AC61 /* DemoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewCell.h; sourceTree = "<group>"; };
+		079A81BA2059572900C1AC61 /* ScaleTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleTitleViewController.m; sourceTree = "<group>"; };
+		079A81BD20595D8800C1AC61 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		079A81BE20595D8900C1AC61 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		079A81C02059612200C1AC61 /* BookTicketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookTicketViewController.h; sourceTree = "<group>"; };
+		079A81C12059612200C1AC61 /* BookTicketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookTicketViewController.m; sourceTree = "<group>"; };
 		07AEC1D02043EEB2001000A1 /* GraduationDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduationDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AEC1D32043EEB2001000A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07AEC1D42043EEB2001000A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +99,27 @@
 		07AEC1DF2043EEB2001000A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07AEC1E12043EEB2001000A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07AEC1E22043EEB2001000A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07BEE5BB2044022F00271AC2 /* CGXAddressPcikerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXAddressPcikerView.h; sourceTree = "<group>"; };
+		07BEE5BC2044022F00271AC2 /* CGXAddressCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CGXAddressCity.plist; sourceTree = "<group>"; };
+		07BEE5BD2044022F00271AC2 /* CGXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXDatePickerView.h; sourceTree = "<group>"; };
+		07BEE5BE2044022F00271AC2 /* CGXPickerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPickerViewManager.m; sourceTree = "<group>"; };
+		07BEE5BF2044022F00271AC2 /* CGXAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXAddressModel.h; sourceTree = "<group>"; };
+		07BEE5C02044022F00271AC2 /* CGXPickerUIBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPickerUIBaseView.h; sourceTree = "<group>"; };
+		07BEE5C12044022F00271AC2 /* CGXPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPickerView.h; sourceTree = "<group>"; };
+		07BEE5C22044022F00271AC2 /* CGXStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXStringPickerView.h; sourceTree = "<group>"; };
+		07BEE5C32044022F00271AC2 /* NSDate+CGXPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CGXPicker.m"; sourceTree = "<group>"; };
+		07BEE5C42044022F00271AC2 /* CGXAddressPcikerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXAddressPcikerView.m; sourceTree = "<group>"; };
+		07BEE5C52044022F00271AC2 /* CGXPickerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXPickerViewManager.h; sourceTree = "<group>"; };
+		07BEE5C62044022F00271AC2 /* CGXDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXDatePickerView.m; sourceTree = "<group>"; };
+		07BEE5C72044022F00271AC2 /* CGXPickerUIBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPickerUIBaseView.m; sourceTree = "<group>"; };
+		07BEE5C82044022F00271AC2 /* CGXAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXAddressModel.m; sourceTree = "<group>"; };
+		07BEE5C92044022F00271AC2 /* CGXBasicInfoPicker.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CGXBasicInfoPicker.plist; sourceTree = "<group>"; };
+		07BEE5CA2044022F00271AC2 /* NSDate+CGXPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CGXPicker.h"; sourceTree = "<group>"; };
+		07BEE5CB2044022F00271AC2 /* CGXStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXStringPickerView.m; sourceTree = "<group>"; };
+		07BEE5CC2044022F00271AC2 /* CGXPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPickerView.m; sourceTree = "<group>"; };
+		1E3EEFC5DD6F3246D6A2F594 /* Pods-GraduationDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduationDesign.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign.release.xcconfig"; sourceTree = "<group>"; };
+		5F474FB68502A0849B51FC28 /* Pods-GraduationDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduationDesign.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB7562B40867FA0ED794D2C /* libPods-GraduationDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraduationDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +127,121 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2931D608F39FCB944411F5F1 /* libPods-GraduationDesign.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059F2346BAF55CD37F7E73ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F474FB68502A0849B51FC28 /* Pods-GraduationDesign.debug.xcconfig */,
+				1E3EEFC5DD6F3246D6A2F594 /* Pods-GraduationDesign.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		07526EBF2060FC1100509A54 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				07526EC02060FC7C00509A54 /* SearchPojo.h */,
+				07526EC12060FC7C00509A54 /* SearchPojo.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		079A8189205956DE00C1AC61 /* ScaleTitleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				079A818A205956DE00C1AC61 /* STScaleTitleTableViewController.h */,
+				079A818B205956DE00C1AC61 /* STScaleTitleTableViewController.m */,
+				079A818C205956DE00C1AC61 /* TitleView */,
+			);
+			name = ScaleTitleTableViewController;
+			path = "../../ScaleTitleTableViewController-master/ScaleTitleTableViewController";
+			sourceTree = "<group>";
+		};
+		079A818C205956DE00C1AC61 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				079A818D205956DE00C1AC61 /* STScaleTitleView.h */,
+				079A818E205956DE00C1AC61 /* STScaleTitleView.m */,
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		079A818F205956DE00C1AC61 /* MMHorizontalListView */ = {
+			isa = PBXGroup;
+			children = (
+				079A8190205956DE00C1AC61 /* MMHorizontalListViewCell.m */,
+				079A8191205956DE00C1AC61 /* MMHorizontalListView.h */,
+				079A8192205956DE00C1AC61 /* MMHorizontalListViewCell.h */,
+				079A8193205956DE00C1AC61 /* MMHorizontalListView.m */,
+			);
+			name = MMHorizontalListView;
+			path = "../../ScaleTitleTableViewController-master/MMHorizontalListView";
+			sourceTree = "<group>";
+		};
+		079A8194205956DE00C1AC61 /* TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				079A8195205956DE00C1AC61 /* YRTableViewController.m */,
+				079A8196205956DE00C1AC61 /* STTableViewController.h */,
+			);
+			name = TableViewController;
+			path = "../../ScaleTitleTableViewController-master/TableViewController";
+			sourceTree = "<group>";
+		};
+		079A8197205956DE00C1AC61 /* SlideScaleTitleTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				079A8198205956DE00C1AC61 /* STSlideScaleTitleTableViewController.h */,
+				079A8199205956DE00C1AC61 /* STSlideScaleTitleTableViewController.m */,
+				079A819A205956DE00C1AC61 /* TitleView */,
+				079A819D205956DE00C1AC61 /* views */,
+			);
+			name = SlideScaleTitleTableViewController;
+			path = "../../ScaleTitleTableViewController-master/SlideScaleTitleTableViewController";
+			sourceTree = "<group>";
+		};
+		079A819A205956DE00C1AC61 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				079A819B205956DE00C1AC61 /* STSegmentScaleTitleView.h */,
+				079A819C205956DE00C1AC61 /* STSegmentScaleTitleView.m */,
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		079A819D205956DE00C1AC61 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				079A819E205956DE00C1AC61 /* STSegmentCollectionSelectorView.h */,
+				079A819F205956DE00C1AC61 /* STSegmentSelectorView.h */,
+				079A81A0205956DE00C1AC61 /* STSlideScaleCarousel.h */,
+				079A81A1205956DE00C1AC61 /* STSlideScaleCarouselItemView.m */,
+				079A81A2205956DE00C1AC61 /* STSegmentCollectionItemCell.m */,
+				079A81A3205956DE00C1AC61 /* STSegmentSelectorItemCell.h */,
+				079A81A4205956DE00C1AC61 /* STSegmentSelectorView.m */,
+				079A81A5205956DE00C1AC61 /* STSegmentCollectionSelectorView.m */,
+				079A81A6205956DE00C1AC61 /* STSlideScaleCarousel.m */,
+				079A81A7205956DE00C1AC61 /* STSegmentCollectionItemCell.h */,
+				079A81A8205956DE00C1AC61 /* STSlideScaleCarouselItemView.h */,
+				079A81A9205956DE00C1AC61 /* STSegmentSelectorItemCell.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		07AEC1C72043EEB2001000A1 = {
 			isa = PBXGroup;
 			children = (
+				070C6484204960F900CF200C /* Podfile */,
 				07AEC1D22043EEB2001000A1 /* GraduationDesign */,
 				07AEC1D12043EEB2001000A1 /* Products */,
+				059F2346BAF55CD37F7E73ED /* Pods */,
+				89F1E8F4AC1082A5EF97BEF6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +256,29 @@
 		07AEC1D22043EEB2001000A1 /* GraduationDesign */ = {
 			isa = PBXGroup;
 			children = (
+				07D57C12206CC36600944474 /* Common */,
+				07526EBF2060FC1100509A54 /* Utility */,
+				079A818F205956DE00C1AC61 /* MMHorizontalListView */,
+				079A8189205956DE00C1AC61 /* ScaleTitleTableViewController */,
+				079A8197205956DE00C1AC61 /* SlideScaleTitleTableViewController */,
+				079A8194205956DE00C1AC61 /* TableViewController */,
+				07BEE5BA2044022F00271AC2 /* CGXPickerView */,
 				07AEC1D32043EEB2001000A1 /* AppDelegate.h */,
 				07AEC1D42043EEB2001000A1 /* AppDelegate.m */,
 				07AEC1D62043EEB2001000A1 /* ViewController.h */,
 				07AEC1D72043EEB2001000A1 /* ViewController.m */,
+				07777F572046A0BD00772F39 /* MeViewController.h */,
+				07777F582046A0BD00772F39 /* MeViewController.m */,
+				079A81B92059572900C1AC61 /* DemoTableViewCell.h */,
+				079A81B72059572900C1AC61 /* DemoTableViewCell.m */,
+				079A81B82059572900C1AC61 /* ScaleTitleViewController.h */,
+				079A81BA2059572900C1AC61 /* ScaleTitleViewController.m */,
+				079A81C02059612200C1AC61 /* BookTicketViewController.h */,
+				079A81C12059612200C1AC61 /* BookTicketViewController.m */,
+				079A81BE20595D8900C1AC61 /* AViewController.h */,
+				079A81BD20595D8800C1AC61 /* AViewController.m */,
+				07526EC320611BB200509A54 /* OrderCommitViewController.h */,
+				07526EC420611BB200509A54 /* OrderCommitViewController.m */,
 				07AEC1D92043EEB2001000A1 /* Main.storyboard */,
 				07AEC1DC2043EEB2001000A1 /* Assets.xcassets */,
 				07AEC1DE2043EEB2001000A1 /* LaunchScreen.storyboard */,
@@ -71,6 +288,54 @@
 			path = GraduationDesign;
 			sourceTree = "<group>";
 		};
+		07BEE5BA2044022F00271AC2 /* CGXPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				07BEE5BB2044022F00271AC2 /* CGXAddressPcikerView.h */,
+				07BEE5BC2044022F00271AC2 /* CGXAddressCity.plist */,
+				07BEE5BD2044022F00271AC2 /* CGXDatePickerView.h */,
+				07BEE5BE2044022F00271AC2 /* CGXPickerViewManager.m */,
+				07BEE5BF2044022F00271AC2 /* CGXAddressModel.h */,
+				07BEE5C02044022F00271AC2 /* CGXPickerUIBaseView.h */,
+				07BEE5C12044022F00271AC2 /* CGXPickerView.h */,
+				07BEE5C22044022F00271AC2 /* CGXStringPickerView.h */,
+				07BEE5C32044022F00271AC2 /* NSDate+CGXPicker.m */,
+				07BEE5C42044022F00271AC2 /* CGXAddressPcikerView.m */,
+				07BEE5C52044022F00271AC2 /* CGXPickerViewManager.h */,
+				07BEE5C62044022F00271AC2 /* CGXDatePickerView.m */,
+				07BEE5C72044022F00271AC2 /* CGXPickerUIBaseView.m */,
+				07BEE5C82044022F00271AC2 /* CGXAddressModel.m */,
+				07BEE5C92044022F00271AC2 /* CGXBasicInfoPicker.plist */,
+				07BEE5CA2044022F00271AC2 /* NSDate+CGXPicker.h */,
+				07BEE5CB2044022F00271AC2 /* CGXStringPickerView.m */,
+				07BEE5CC2044022F00271AC2 /* CGXPickerView.m */,
+			);
+			path = CGXPickerView;
+			sourceTree = "<group>";
+		};
+		07D57C12206CC36600944474 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				07D57C13206CC37100944474 /* NetWork */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		07D57C13206CC37100944474 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		89F1E8F4AC1082A5EF97BEF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEB7562B40867FA0ED794D2C /* libPods-GraduationDesign.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +343,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07AEC1E62043EEB2001000A1 /* Build configuration list for PBXNativeTarget "GraduationDesign" */;
 			buildPhases = (
+				56797B234337DC94748E2608 /* [CP] Check Pods Manifest.lock */,
 				07AEC1CC2043EEB2001000A1 /* Sources */,
 				07AEC1CD2043EEB2001000A1 /* Frameworks */,
 				07AEC1CE2043EEB2001000A1 /* Resources */,
+				FECBD1EC229B71768060E80F /* [CP] Embed Pods Frameworks */,
+				6E70013817F3EC2D07E1FCFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,22 +397,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				070C6485204960F900CF200C /* Podfile in Resources */,
+				07BEE5D42044022F00271AC2 /* CGXBasicInfoPicker.plist in Resources */,
 				07AEC1E02043EEB2001000A1 /* LaunchScreen.storyboard in Resources */,
 				07AEC1DD2043EEB2001000A1 /* Assets.xcassets in Resources */,
 				07AEC1DB2043EEB2001000A1 /* Main.storyboard in Resources */,
+				07BEE5CD2044022F00271AC2 /* CGXAddressCity.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56797B234337DC94748E2608 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GraduationDesign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E70013817F3EC2D07E1FCFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FECBD1EC229B71768060E80F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07AEC1CC2043EEB2001000A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				079A81AE205956DE00C1AC61 /* YRTableViewController.m in Sources */,
+				079A81AC205956DE00C1AC61 /* MMHorizontalListViewCell.m in Sources */,
+				07BEE5CF2044022F00271AC2 /* NSDate+CGXPicker.m in Sources */,
+				079A81B6205956DE00C1AC61 /* STSegmentSelectorItemCell.m in Sources */,
+				07BEE5D12044022F00271AC2 /* CGXDatePickerView.m in Sources */,
+				079A81BB2059572900C1AC61 /* DemoTableViewCell.m in Sources */,
+				079A81B1205956DE00C1AC61 /* STSlideScaleCarouselItemView.m in Sources */,
+				07BEE5D32044022F00271AC2 /* CGXAddressModel.m in Sources */,
+				079A81AB205956DE00C1AC61 /* STScaleTitleView.m in Sources */,
+				079A81B4205956DE00C1AC61 /* STSegmentCollectionSelectorView.m in Sources */,
+				079A81C22059612200C1AC61 /* BookTicketViewController.m in Sources */,
 				07AEC1D82043EEB2001000A1 /* ViewController.m in Sources */,
+				07BEE5D02044022F00271AC2 /* CGXAddressPcikerView.m in Sources */,
+				07BEE5D62044022F00271AC2 /* CGXPickerView.m in Sources */,
+				079A81AF205956DE00C1AC61 /* STSlideScaleTitleTableViewController.m in Sources */,
+				079A81AD205956DE00C1AC61 /* MMHorizontalListView.m in Sources */,
+				079A81B2205956DE00C1AC61 /* STSegmentCollectionItemCell.m in Sources */,
+				07777F592046A0BD00772F39 /* MeViewController.m in Sources */,
+				079A81BC2059572900C1AC61 /* ScaleTitleViewController.m in Sources */,
+				07526EC22060FC7C00509A54 /* SearchPojo.m in Sources */,
+				07BEE5D22044022F00271AC2 /* CGXPickerUIBaseView.m in Sources */,
 				07AEC1E32043EEB2001000A1 /* main.m in Sources */,
+				079A81BF20595D8900C1AC61 /* AViewController.m in Sources */,
+				079A81B0205956DE00C1AC61 /* STSegmentScaleTitleView.m in Sources */,
+				079A81AA205956DE00C1AC61 /* STScaleTitleTableViewController.m in Sources */,
+				079A81B5205956DE00C1AC61 /* STSlideScaleCarousel.m in Sources */,
+				07526EC520611BB200509A54 /* OrderCommitViewController.m in Sources */,
 				07AEC1D52043EEB2001000A1 /* AppDelegate.m in Sources */,
+				07BEE5D52044022F00271AC2 /* CGXStringPickerView.m in Sources */,
+				07BEE5CE2044022F00271AC2 /* CGXPickerViewManager.m in Sources */,
+				079A81B3205956DE00C1AC61 /* STSegmentSelectorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,29 +629,33 @@
 		};
 		07AEC1E72043EEB2001000A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F474FB68502A0849B51FC28 /* Pods-GraduationDesign.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG3825BS37;
 				INFOPLIST_FILE = GraduationDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eric.GraduationDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		07AEC1E82043EEB2001000A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3EEFC5DD6F3246D6A2F594 /* Pods-GraduationDesign.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JG3825BS37;
 				INFOPLIST_FILE = GraduationDesign/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eric.GraduationDesign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
