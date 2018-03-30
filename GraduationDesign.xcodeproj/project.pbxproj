@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070358D5206E121D001069EE /* NetInterfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 070358D4206E121D001069EE /* NetInterfaceManager.m */; };
 		070C6485204960F900CF200C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 070C6484204960F900CF200C /* Podfile */; };
 		07526EC22060FC7C00509A54 /* SearchPojo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07526EC12060FC7C00509A54 /* SearchPojo.m */; };
 		07526EC520611BB200509A54 /* OrderCommitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07526EC420611BB200509A54 /* OrderCommitViewController.m */; };
@@ -44,10 +45,17 @@
 		07BEE5D42044022F00271AC2 /* CGXBasicInfoPicker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07BEE5C92044022F00271AC2 /* CGXBasicInfoPicker.plist */; };
 		07BEE5D52044022F00271AC2 /* CGXStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5CB2044022F00271AC2 /* CGXStringPickerView.m */; };
 		07BEE5D62044022F00271AC2 /* CGXPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5CC2044022F00271AC2 /* CGXPickerView.m */; };
+		07C7C513206CEA740064D5B5 /* QDAFSessionNetworkManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C511206CEA730064D5B5 /* QDAFSessionNetworkManger.m */; };
+		07C7C516206CF1EC0064D5B5 /* DriverDataCryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C515206CF1EC0064D5B5 /* DriverDataCryption.m */; };
+		07C7C519206CF2110064D5B5 /* NewCryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C517206CF2110064D5B5 /* NewCryption.m */; };
+		07C7C51C206CF5340064D5B5 /* QDNetResultBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C51A206CF5330064D5B5 /* QDNetResultBaseModel.m */; };
+		07C7C51F206CF57E0064D5B5 /* JFCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C7C51E206CF57D0064D5B5 /* JFCodingObject.m */; };
 		2931D608F39FCB944411F5F1 /* libPods-GraduationDesign.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB7562B40867FA0ED794D2C /* libPods-GraduationDesign.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		070358D3206E121D001069EE /* NetInterfaceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetInterfaceManager.h; sourceTree = "<group>"; };
+		070358D4206E121D001069EE /* NetInterfaceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetInterfaceManager.m; sourceTree = "<group>"; };
 		070C6484204960F900CF200C /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		07526EC02060FC7C00509A54 /* SearchPojo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchPojo.h; sourceTree = "<group>"; };
 		07526EC12060FC7C00509A54 /* SearchPojo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchPojo.m; sourceTree = "<group>"; };
@@ -117,6 +125,18 @@
 		07BEE5CA2044022F00271AC2 /* NSDate+CGXPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CGXPicker.h"; sourceTree = "<group>"; };
 		07BEE5CB2044022F00271AC2 /* CGXStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXStringPickerView.m; sourceTree = "<group>"; };
 		07BEE5CC2044022F00271AC2 /* CGXPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXPickerView.m; sourceTree = "<group>"; };
+		07C7C510206CEA180064D5B5 /* QDNetworkUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNetworkUtility.h; sourceTree = "<group>"; };
+		07C7C511206CEA730064D5B5 /* QDAFSessionNetworkManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDAFSessionNetworkManger.m; sourceTree = "<group>"; };
+		07C7C512206CEA730064D5B5 /* QDAFSessionNetworkManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDAFSessionNetworkManger.h; sourceTree = "<group>"; };
+		07C7C514206CF1EC0064D5B5 /* DriverDataCryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverDataCryption.h; sourceTree = "<group>"; };
+		07C7C515206CF1EC0064D5B5 /* DriverDataCryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverDataCryption.m; sourceTree = "<group>"; };
+		07C7C517206CF2110064D5B5 /* NewCryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCryption.m; sourceTree = "<group>"; };
+		07C7C518206CF2110064D5B5 /* NewCryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCryption.h; sourceTree = "<group>"; };
+		07C7C51A206CF5330064D5B5 /* QDNetResultBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNetResultBaseModel.m; sourceTree = "<group>"; };
+		07C7C51B206CF5340064D5B5 /* QDNetResultBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNetResultBaseModel.h; sourceTree = "<group>"; };
+		07C7C51D206CF57D0064D5B5 /* JFCodingObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCodingObject.h; sourceTree = "<group>"; };
+		07C7C51E206CF57D0064D5B5 /* JFCodingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCodingObject.m; sourceTree = "<group>"; };
+		07C7C520206CF7FB0064D5B5 /* QDMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMacro.h; sourceTree = "<group>"; };
 		1E3EEFC5DD6F3246D6A2F594 /* Pods-GraduationDesign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduationDesign.release.xcconfig"; path = "Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign.release.xcconfig"; sourceTree = "<group>"; };
 		5F474FB68502A0849B51FC28 /* Pods-GraduationDesign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraduationDesign.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GraduationDesign/Pods-GraduationDesign.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB7562B40867FA0ED794D2C /* libPods-GraduationDesign.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GraduationDesign.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,6 +344,20 @@
 		07D57C13206CC37100944474 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				07C7C520206CF7FB0064D5B5 /* QDMacro.h */,
+				07C7C51D206CF57D0064D5B5 /* JFCodingObject.h */,
+				07C7C51E206CF57D0064D5B5 /* JFCodingObject.m */,
+				07C7C51B206CF5340064D5B5 /* QDNetResultBaseModel.h */,
+				07C7C51A206CF5330064D5B5 /* QDNetResultBaseModel.m */,
+				07C7C510206CEA180064D5B5 /* QDNetworkUtility.h */,
+				07C7C512206CEA730064D5B5 /* QDAFSessionNetworkManger.h */,
+				07C7C511206CEA730064D5B5 /* QDAFSessionNetworkManger.m */,
+				07C7C514206CF1EC0064D5B5 /* DriverDataCryption.h */,
+				07C7C515206CF1EC0064D5B5 /* DriverDataCryption.m */,
+				07C7C518206CF2110064D5B5 /* NewCryption.h */,
+				07C7C517206CF2110064D5B5 /* NewCryption.m */,
+				070358D3206E121D001069EE /* NetInterfaceManager.h */,
+				070358D4206E121D001069EE /* NetInterfaceManager.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -467,11 +501,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C7C519206CF2110064D5B5 /* NewCryption.m in Sources */,
 				079A81AE205956DE00C1AC61 /* YRTableViewController.m in Sources */,
 				079A81AC205956DE00C1AC61 /* MMHorizontalListViewCell.m in Sources */,
 				07BEE5CF2044022F00271AC2 /* NSDate+CGXPicker.m in Sources */,
 				079A81B6205956DE00C1AC61 /* STSegmentSelectorItemCell.m in Sources */,
 				07BEE5D12044022F00271AC2 /* CGXDatePickerView.m in Sources */,
+				07C7C51F206CF57E0064D5B5 /* JFCodingObject.m in Sources */,
 				079A81BB2059572900C1AC61 /* DemoTableViewCell.m in Sources */,
 				079A81B1205956DE00C1AC61 /* STSlideScaleCarouselItemView.m in Sources */,
 				07BEE5D32044022F00271AC2 /* CGXAddressModel.m in Sources */,
@@ -492,11 +528,15 @@
 				079A81BF20595D8900C1AC61 /* AViewController.m in Sources */,
 				079A81B0205956DE00C1AC61 /* STSegmentScaleTitleView.m in Sources */,
 				079A81AA205956DE00C1AC61 /* STScaleTitleTableViewController.m in Sources */,
+				07C7C513206CEA740064D5B5 /* QDAFSessionNetworkManger.m in Sources */,
 				079A81B5205956DE00C1AC61 /* STSlideScaleCarousel.m in Sources */,
 				07526EC520611BB200509A54 /* OrderCommitViewController.m in Sources */,
 				07AEC1D52043EEB2001000A1 /* AppDelegate.m in Sources */,
+				07C7C516206CF1EC0064D5B5 /* DriverDataCryption.m in Sources */,
+				070358D5206E121D001069EE /* NetInterfaceManager.m in Sources */,
 				07BEE5D52044022F00271AC2 /* CGXStringPickerView.m in Sources */,
 				07BEE5CE2044022F00271AC2 /* CGXPickerViewManager.m in Sources */,
+				07C7C51C206CF5340064D5B5 /* QDNetResultBaseModel.m in Sources */,
 				079A81B3205956DE00C1AC61 /* STSegmentSelectorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

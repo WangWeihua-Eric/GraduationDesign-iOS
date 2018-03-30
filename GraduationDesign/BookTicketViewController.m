@@ -10,9 +10,11 @@
 #import "DemoTableViewCell.h"
 #import <Masonry/Masonry.h>
 #import "SearchPojo.h"
+#import "NetInterfaceManager.h"
 
 @interface BookTicketViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic, strong) NSArray *flightInfoList;
 
 @end
 
@@ -21,6 +23,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[NetInterfaceManager sharedInstance] wExtraParams:nil
+                                          wResultBlock:^(NSURLSessionDataTask *task, EQDRequestStatus status, id data, NSNumber *returnCode) {
+                                              if (EQDRequestStatusSuccess == status && [returnCode integerValue] == 0) {
+                                                  //                                                  [JFToast showToastTo:self.view withText:@"获取验证码成功"];
+                                                  QDNetResultBaseModel* resultBaseModel = data;
+                                                  _flightInfoList = [resultBaseModel networkData];
+                                                  [self.tableView reloadData];
+                                              }else if (EQDRequestStatusSuccess == status || EQDRequestStatusFail == status) {
+                                                  NSString *errStr = nil;
+                                                  if ([data isKindOfClass:[QDNetResultBaseModel class]]) {
+                                                      QDNetResultBaseModel* resultBaseModel = data;
+                                                      errStr = resultBaseModel.networkStatus.returnDesc;
+                                                  }
+                                                  
+                                                  //                                                  if (StringIsNullOrEmpty(errStr)) {
+                                                  //                                                      errStr = @"获取验证码失败，请检查网络";
+                                                  //                                                  }
+                                                  //                                                  [JFToast showToastTo:self.view withText:errStr];
+                                                  //
+                                                  //
+                                                  //                                                  [QTrackingManager avAnalyticsEvent:kAVEvent_id_login label:@"label_vcoed_fail"];
+                                              }
+                                          }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,6 +68,10 @@
     self.tabBarController.tabBar.hidden = NO;
 }
 
+- (void)viewDidAppear:(BOOL)animated{
+    
+}
+
 /*
 #pragma mark - Navigation
 
@@ -58,7 +87,10 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 20;
+    if(_flightInfoList == nil || _flightInfoList.count < 1){
+        return 0;
+    }
+    return _flightInfoList.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -86,11 +118,30 @@
         make.edges.equalTo(cell.contentView).insets(UIEdgeInsetsMake(20, 20, 20, 20));
     }];
     
+    NSMutableDictionary *sourceDic = [[NSMutableDictionary alloc] initWithDictionary:[_flightInfoList objectAtIndex:indexPath.row]];
+    NSString *name = [sourceDic objectForKey:@"name"];
+    NSString *airCode = [sourceDic objectForKey:@"airCode"];
+    NSString *depAirport = [sourceDic objectForKey:@"depAirport"];
+    NSString *arrAirport = [sourceDic objectForKey:@"arrAirport"];
+    NSString *depTime = [sourceDic objectForKey:@"depTime"];
+    NSString *arrTime = [sourceDic objectForKey:@"arrTime"];
+    NSString *depTerminal = [sourceDic objectForKey:@"depTerminal"];
+    NSString *arrTerminal = [sourceDic objectForKey:@"arrTerminal"];
+    
+    UILabel *fromTime = [cell.contentView viewWithTag:1001];
+    fromTime.text = depTime;
+    
+    UILabel *toTime = [cell.contentView viewWithTag:1002];
+    toTime.text = arrTime;
+    
     UILabel *fromAddress = [cell.contentView viewWithTag:1004];
-    fromAddress.text = searchPojo.fromAddress;
+    fromAddress.text = [depAirport stringByAppendingFormat:@"%@" ,depTerminal];
     
     UILabel *toAddress = [cell.contentView viewWithTag:1005];
-    toAddress.text = searchPojo.toAddress;
+    toAddress.text = [arrAirport stringByAppendingFormat:@"%@" ,arrTerminal];
+    
+    UILabel *fightDes = [cell.contentView viewWithTag:1006];
+    fightDes.text = [name stringByAppendingFormat:@"%@" ,airCode];
     
     
 //    [[cell contentView] addSubview:backgroundView];
