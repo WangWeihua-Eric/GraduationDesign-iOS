@@ -11,6 +11,7 @@
 #import <Masonry/Masonry.h>
 #import "SearchPojo.h"
 #import "NetInterfaceManager.h"
+#import "FlightInfosPojo.h"
 
 @interface BookTicketViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -23,7 +24,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[NetInterfaceManager sharedInstance] wExtraParams:nil
+    SearchPojo *searchPojo = [SearchPojo sharedInstance];
+    NSDictionary *params = @{
+                             @"goDate": searchPojo.departureTimee,
+                             @"depCity": searchPojo.fromAddress,
+                             @"arrCity": searchPojo.toAddress
+                             };
+    [[NetInterfaceManager sharedInstance] wExtraParams:params
                                           wResultBlock:^(NSURLSessionDataTask *task, EQDRequestStatus status, id data, NSNumber *returnCode) {
                                               if (EQDRequestStatusSuccess == status && [returnCode integerValue] == 0) {
                                                   //                                                  [JFToast showToastTo:self.view withText:@"获取验证码成功"];
@@ -62,6 +69,7 @@
     NSString *from = searchPojo.fromAddress;
     NSString *arrive = searchPojo.toAddress;
     self.title = [from stringByAppendingFormat:@" —— %@" ,arrive];
+    _flightInfoList = [FlightInfosPojo sharedInstance].flightInfoList;
 }
 
 - (void)viewWillDisappear:(BOOL)animated{

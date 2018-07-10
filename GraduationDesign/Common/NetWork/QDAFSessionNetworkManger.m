@@ -59,12 +59,15 @@
 //MARK:  - Public methods
 - (NSDictionary*)encryptyReqParam:(NSString*)tValueStr withBParams:(NSDictionary*)bParams
 {
-    NSDictionary *params = @{
-                             @"goDate": @"2018-03-28",
-                             @"depCity": @"北京",
-                             @"arrCity": @"上海"
-                             };
-    return params;
+    if(bParams == nil){
+        NSDictionary *params = @{
+                                 @"goDate": @"2018-07-28",
+                                 @"depCity": @"北京",
+                                 @"arrCity": @"上海"
+                                 };
+        return params;
+    }
+    return bParams;
 }
 
 - (NSDictionary*)decryptResData:(NSData*) data {

@@ -12,6 +12,7 @@
 		07526EC22060FC7C00509A54 /* SearchPojo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07526EC12060FC7C00509A54 /* SearchPojo.m */; };
 		07526EC520611BB200509A54 /* OrderCommitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07526EC420611BB200509A54 /* OrderCommitViewController.m */; };
 		07777F592046A0BD00772F39 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07777F582046A0BD00772F39 /* MeViewController.m */; };
+		0792744D20CD778300605123 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0792744B20CD778300605123 /* UserInfoViewController.m */; };
 		079A81AA205956DE00C1AC61 /* STScaleTitleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A818B205956DE00C1AC61 /* STScaleTitleTableViewController.m */; };
 		079A81AB205956DE00C1AC61 /* STScaleTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A818E205956DE00C1AC61 /* STScaleTitleView.m */; };
 		079A81AC205956DE00C1AC61 /* MMHorizontalListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 079A8190205956DE00C1AC61 /* MMHorizontalListViewCell.m */; };
@@ -35,6 +36,7 @@
 		07AEC1DD2043EEB2001000A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AEC1DC2043EEB2001000A1 /* Assets.xcassets */; };
 		07AEC1E02043EEB2001000A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AEC1DE2043EEB2001000A1 /* LaunchScreen.storyboard */; };
 		07AEC1E32043EEB2001000A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AEC1E22043EEB2001000A1 /* main.m */; };
+		07B678F520CADFE600C3E211 /* FlightInfosPojo.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B678F420CADFE600C3E211 /* FlightInfosPojo.m */; };
 		07BEE5CD2044022F00271AC2 /* CGXAddressCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07BEE5BC2044022F00271AC2 /* CGXAddressCity.plist */; };
 		07BEE5CE2044022F00271AC2 /* CGXPickerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5BE2044022F00271AC2 /* CGXPickerViewManager.m */; };
 		07BEE5CF2044022F00271AC2 /* NSDate+CGXPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BEE5C32044022F00271AC2 /* NSDate+CGXPicker.m */; };
@@ -63,6 +65,8 @@
 		07526EC420611BB200509A54 /* OrderCommitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrderCommitViewController.m; sourceTree = "<group>"; };
 		07777F572046A0BD00772F39 /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		07777F582046A0BD00772F39 /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		0792744B20CD778300605123 /* UserInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UserInfoViewController.m; path = /Users/Eric/Desktop/GraduationDesign/GraduationDesign/UserInfoViewController.m; sourceTree = "<absolute>"; };
+		0792744C20CD778300605123 /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UserInfoViewController.h; path = /Users/Eric/Desktop/GraduationDesign/GraduationDesign/UserInfoViewController.h; sourceTree = "<absolute>"; };
 		079A818A205956DE00C1AC61 /* STScaleTitleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScaleTitleTableViewController.h; sourceTree = "<group>"; };
 		079A818B205956DE00C1AC61 /* STScaleTitleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STScaleTitleTableViewController.m; sourceTree = "<group>"; };
 		079A818D205956DE00C1AC61 /* STScaleTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STScaleTitleView.h; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 		07AEC1DF2043EEB2001000A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07AEC1E12043EEB2001000A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07AEC1E22043EEB2001000A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B678F320CADFE600C3E211 /* FlightInfosPojo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlightInfosPojo.h; sourceTree = "<group>"; };
+		07B678F420CADFE600C3E211 /* FlightInfosPojo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlightInfosPojo.m; sourceTree = "<group>"; };
 		07BEE5BB2044022F00271AC2 /* CGXAddressPcikerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXAddressPcikerView.h; sourceTree = "<group>"; };
 		07BEE5BC2044022F00271AC2 /* CGXAddressCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CGXAddressCity.plist; sourceTree = "<group>"; };
 		07BEE5BD2044022F00271AC2 /* CGXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXDatePickerView.h; sourceTree = "<group>"; };
@@ -168,6 +174,8 @@
 			children = (
 				07526EC02060FC7C00509A54 /* SearchPojo.h */,
 				07526EC12060FC7C00509A54 /* SearchPojo.m */,
+				07B678F320CADFE600C3E211 /* FlightInfosPojo.h */,
+				07B678F420CADFE600C3E211 /* FlightInfosPojo.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -299,6 +307,8 @@
 				079A81BD20595D8800C1AC61 /* AViewController.m */,
 				07526EC320611BB200509A54 /* OrderCommitViewController.h */,
 				07526EC420611BB200509A54 /* OrderCommitViewController.m */,
+				0792744C20CD778300605123 /* UserInfoViewController.h */,
+				0792744B20CD778300605123 /* UserInfoViewController.m */,
 				07AEC1D92043EEB2001000A1 /* Main.storyboard */,
 				07AEC1DC2043EEB2001000A1 /* Assets.xcassets */,
 				07AEC1DE2043EEB2001000A1 /* LaunchScreen.storyboard */,
@@ -506,6 +516,7 @@
 				079A81AC205956DE00C1AC61 /* MMHorizontalListViewCell.m in Sources */,
 				07BEE5CF2044022F00271AC2 /* NSDate+CGXPicker.m in Sources */,
 				079A81B6205956DE00C1AC61 /* STSegmentSelectorItemCell.m in Sources */,
+				0792744D20CD778300605123 /* UserInfoViewController.m in Sources */,
 				07BEE5D12044022F00271AC2 /* CGXDatePickerView.m in Sources */,
 				07C7C51F206CF57E0064D5B5 /* JFCodingObject.m in Sources */,
 				079A81BB2059572900C1AC61 /* DemoTableViewCell.m in Sources */,
@@ -514,6 +525,7 @@
 				079A81AB205956DE00C1AC61 /* STScaleTitleView.m in Sources */,
 				079A81B4205956DE00C1AC61 /* STSegmentCollectionSelectorView.m in Sources */,
 				079A81C22059612200C1AC61 /* BookTicketViewController.m in Sources */,
+				07B678F520CADFE600C3E211 /* FlightInfosPojo.m in Sources */,
 				07AEC1D82043EEB2001000A1 /* ViewController.m in Sources */,
 				07BEE5D02044022F00271AC2 /* CGXAddressPcikerView.m in Sources */,
 				07BEE5D62044022F00271AC2 /* CGXPickerView.m in Sources */,

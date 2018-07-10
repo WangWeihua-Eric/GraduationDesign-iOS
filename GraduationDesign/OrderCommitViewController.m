@@ -7,8 +7,12 @@
 //
 
 #import "OrderCommitViewController.h"
+#import "SearchPojo.h"
 
 @interface OrderCommitViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *toCtiy;
+@property (weak, nonatomic) IBOutlet UILabel *fromCity;
+@property (weak, nonatomic) IBOutlet UILabel *plantTime;
 
 @end
 
@@ -22,6 +26,10 @@
 - (void)viewWillAppear:(BOOL)animated{
     self.navigationController.navigationBar.hidden = YES;
     self.tabBarController.tabBar.hidden = YES;
+    SearchPojo *searchPojo = [SearchPojo sharedInstance];
+    _toCtiy.text = searchPojo.toAddress;
+    _fromCity.text = searchPojo.fromAddress;
+    _plantTime.text = searchPojo.departureTimee;
 }
 
 - (void)viewWillDisappear:(BOOL)animated{

@@ -29,7 +29,7 @@
         [param addEntriesFromDictionary:requestExtraParams];
     }
     [[QDAFSessionNetworkManger sharedInstance] startRequestTValue:@"car_qb_driv_sendvcode"
-                                                   withServerPath:@"http://localhost:8080/graduation/query/flight/plant"
+                                                   withServerPath:@"http://120.78.94.110:8080/eric/graduation/query/flight/plant"
                                                         withParam:param
                                                       respondData:[QDNetResultBaseModel class]
                                                       resultBlock:block];

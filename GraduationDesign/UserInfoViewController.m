@@ -1,36 +1,31 @@
 //
-//  MeViewController.m
-//  GraduationDesign
+//  UserInfoViewController.m
+//  
 //
-//  Created by Eric on 2018/2/28.
-//  Copyright © 2018年 Eric. All rights reserved.
+//  Created by Eric on 2018/6/10.
 //
 
-#import "MeViewController.h"
+#import "UserInfoViewController.h"
 
-@interface MeViewController ()
+@interface UserInfoViewController ()
 
 @end
 
-@implementation MeViewController
+@implementation UserInfoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
-- (void)viewWillAppear:(BOOL)animated{
-    self.navigationController.navigationBarHidden = YES;
-    self.tabBarController.tabBar.hidden = NO;
-}
-
-- (void)viewWillDisappear:(BOOL)animated{
-    self.navigationController.navigationBarHidden = NO;
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBarHidden = YES;
+    self.tabBarController.tabBar.hidden = YES;
 }
 
 /*
@@ -42,5 +37,8 @@
     // Pass the selected object to the new view controller.
 }
 */
+- (IBAction)backBtn:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 @end
